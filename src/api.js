@@ -36,7 +36,8 @@ const buttonClick = async () => {
     printData(text);
 }
 
-button.addEventListener("click", buttonClick);
+document.querySelector('button')
+.addEventListener("click", buttonClick);
 
 
 
